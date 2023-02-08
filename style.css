@@ -10,19 +10,27 @@ h1 {
   color: white;
   margin-top: 50px;
 }
+
 h2 {
   color: white;
   margin-top: 50px;
 }
+
+.foodimage {
+  max-width: 1000px;
+}
+
+.second-maxwidth {
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* Define styling for paragraph text */
 p {
   color: white;
   font-size: 16px;
   line-height: 1.5;
   margin: 20px 0;
-  text-align: center;
-  max-width: 500px;
-  margin: 0 auto;
 }
 
 a {
