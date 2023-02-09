@@ -24,6 +24,29 @@ body {
     'footer footer footer footer footer footer';
 }
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (min-width: 600px) {
+  .grid-container {
+      grid-template-areas:
+      'header header header header header header' 
+      'left1 left1 left1 left1 left1 left1' 
+      'right1 right1 right1 right1 right1 right1'
+      'left2 left2 left2 left2 left2 left2'
+      'right2 right2 right2 right2 right2 right2'
+      'footer footer footer footer footer footer';
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+      grid-template-areas:
+      'header header header header header header' 
+      'left1 left1 left1 right1 right1 right1' 
+      'left2 left2 left2 right2 right2 right2'
+      'footer footer footer footer footer footer';
+  }
+}
+
 
 /* this is a test comment */
 .header { 
