@@ -22,6 +22,7 @@ body {
     'footer footer footer footer footer footer';
 }
 
+/* this is a test comment */
 .header { 
   grid-area: header; 
   width: 100%; 
