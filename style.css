@@ -18,10 +18,12 @@ body {
   padding: 10px;
   gap: 10px;
   grid-template-areas: 
-    'header header header header header header' 
-    'left1 left1 left1 right1 right1 right1' 
-    'left2 left2 left2 right2 right2 right2'
-    'footer footer footer footer footer footer';
+  'header header header header header header' 
+  'left1 left1 left1 left1 left1 left1' 
+  'right1 right1 right1 right1 right1 right1'
+  'left2 left2 left2 left2 left2 left2'
+  'right2 right2 right2 right2 right2 right2'
+  'footer footer footer footer footer footer';
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -37,7 +39,7 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .grid-container {
       grid-template-areas:
       'header header header header header header' 
